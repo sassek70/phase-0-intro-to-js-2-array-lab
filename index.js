@@ -29,14 +29,14 @@ function prependCat(cat) {
     return [cat, ...cats]
 };
 
-function removeLastCat(cat) {
-    cat = [...cats]
+function removeLastCat() {
+    const cat = [...cats]
     cat.pop()
     return cat;
    };
 
-function removeFirstCat(cat) {
-    cat = [...cats]
+function removeFirstCat() {
+    const cat = [...cats]
     cat.shift()
     return cat;
 };
